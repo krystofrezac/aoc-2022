@@ -8,9 +8,13 @@
     "module": "commonjs",
     "in-source": false
   },
-  "suffix": ".bs.js",
+  "suffix": ".js",
+  "warnings": {
+    "error": "+8"
+  },
   "bs-dependencies": [
-    "@rescript/core"
+    "@rescript/core",
+    "rescript-nodejs"
   ],
   "bsc-flags": [
     "-open RescriptCore"
