@@ -7,6 +7,8 @@ let run = async () => {
       switch day {
       | "01_0" => Day01_0.run(input)
       | "01_1" => Day01_1.run(input)
+      | "02_0" => Day02_0.run(input)
+      | "02_1" => Day02_1.run(input)
       | _ => Console.log("Invalid day")
       }
     }
