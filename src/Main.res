@@ -9,6 +9,8 @@ let run = async () => {
       | "01_1" => Day01_1.run(input)
       | "02_0" => Day02_0.run(input)
       | "02_1" => Day02_1.run(input)
+      | "03_0" => Day03_0.run(input)
+      | "03_1" => Day03_1.run(input)
       | _ => Console.log("Invalid day")
       }
     }
